@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91B650812D51545400D050A5 /* PrayerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91B6507F2D51545400D050A5 /* PrayerModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		91B650342D51226000D050A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		91B650222D51225E00D050A5 /* TibetanPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TibetanPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B650332D51226000D050A5 /* TibetanPrayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetanPrayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B6503D2D51226000D050A5 /* TibetanPrayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetanPrayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B650802D51545400D050A5 /* PrayerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrayerModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		91B650192D51225E00D050A5 = {
 			isa = PBXGroup;
 			children = (
+				91B6507F2D51545400D050A5 /* PrayerModel.xcdatamodeld */,
 				91B650242D51225E00D050A5 /* TibetanPrayer */,
 				91B650362D51226000D050A5 /* TibetanPrayerTests */,
 				91B650402D51226000D050A5 /* TibetanPrayerUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B650812D51545400D050A5 /* PrayerModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +598,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91B6507F2D51545400D050A5 /* PrayerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91B650802D51545400D050A5 /* PrayerModel.xcdatamodel */,
+			);
+			currentVersion = 91B650802D51545400D050A5 /* PrayerModel.xcdatamodel */;
+			path = PrayerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91B6501A2D51225E00D050A5 /* Project object */;
 }
