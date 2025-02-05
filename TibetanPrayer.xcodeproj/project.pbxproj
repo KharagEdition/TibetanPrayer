@@ -34,9 +34,22 @@
 		91B650802D51545400D050A5 /* PrayerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrayerModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		91D40C282D51DA96002BC5A5 /* Exceptions for "TibetanPrayer" folder in "TibetanPrayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = 91B650212D51225E00D050A5 /* TibetanPrayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		91B650242D51225E00D050A5 /* TibetanPrayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				91D40C282D51DA96002BC5A5 /* Exceptions for "TibetanPrayer" folder in "TibetanPrayer" target */,
+			);
 			path = TibetanPrayer;
 			sourceTree = "<group>";
 		};
@@ -397,7 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TibetanPrayer/TibetanPrayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TibetanPrayer/Preview Content\"";
 				DEVELOPMENT_TEAM = PZFFFQ5T9X;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -436,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TibetanPrayer/TibetanPrayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TibetanPrayer/Preview Content\"";
 				DEVELOPMENT_TEAM = PZFFFQ5T9X;
 				ENABLE_HARDENED_RUNTIME = YES;
